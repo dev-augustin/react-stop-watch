@@ -6,7 +6,6 @@ class App extends React.Component {
   constructor(props){
     super(props);
     
-    }
   }
   
   render()
@@ -14,16 +13,16 @@ class App extends React.Component {
     return (
     <div> 
       <h2>Stop Watch</h2>
-      <div className="App" >
+      <div className='centerButton'>
         <button id="start">Start</button>
         <button id="pause">Pause</button>
         <button id="stop">Stop</button>
 
       </div>  
-      {/* <h3>Count= </h3> */}
+    
     </div>
   );
-}
+}}
 
 
 export default App;
