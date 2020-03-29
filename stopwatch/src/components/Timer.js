@@ -6,7 +6,7 @@ class Timer extends React.Component {
       this.state=
       {startTime:0,
        isTimerState:true,
-       intervalId:0
+       intervalId1:0
     }
     }
      startTime(){
@@ -16,12 +16,20 @@ class Timer extends React.Component {
                     isTimerState: false})},
                     1000))
                    
-         }     
+                    console.log("state: "+this.intervalId)}     
          
          pauseTime(){
             clearInterval(this.intervalId)
-                      
-            }   
+            console.log("state: "+this.intervalId)  
+            
+            //console.log("pause: "+this.state.intervalId1)    
+        }  
+            
+            stopTime(){
+                    this.setState({startTime:0})
+                    clearInterval(this.intervalId)
+                          
+                }  
      
     render()
     {
