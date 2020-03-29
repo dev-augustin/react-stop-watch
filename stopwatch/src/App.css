@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 .App {
+  
   align-content: center;
+  /* border:10px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: aqua */
  
 
 }
-#start, #pause,#stop, h2 {
+h2 {
   font-family: 'Josefin Sans', cursive;
-  text-align: center;
-  padding: 100px;
-}
+  text-align: center;}
+
+.centerButton{
+  display: flex;
+  text-align: center;}
+
+  #start, #stop, #pause{
+
+    height: 50px;
+    width: 200px;
+    color: rgb(138, 87, 87);
+    background-color: aqua;
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', cursive;
+    border-radius:5%;
+  }
+ 
+
 
