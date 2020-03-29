@@ -12,3 +12,4 @@ Build a Stopwatch component that:
 
 1. https://upmostly.com/tutorials/setinterval-in-react-components-using-hooks
 2. https://dev.to/dance2die/canceling-interval-in-react-52b5
+3. https://medium.com/@peterjd42/building-timers-in-react-stopwatch-and-countdown-bc06486560a2
